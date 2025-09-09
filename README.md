@@ -5,28 +5,37 @@ This project is a Discord backup tool that uses Discord as storage to upload and
 For setup help, DM on Instagram: @kunal.kandhari
 
 🚀 Features
+
 Upload and download files using Discord channels as storage.
 
 Two modes available:
+
 Single-threaded: Uses one bot client (slow due to Discord rate limits).
+
 Multi-threaded: Uses up to 4 bots for parallel file operations.
 
 PostgreSQL database integration for tracking backups.
+
 REST API endpoints through a Discord controller.
 
 ⚙️ Prerequisites
+
 Before setting up the project, ensure you have the following:
 
 PostgreSQL Database
+
 Use the provided script discord_backup.sql to create the required tables.
+
 Update your DB configuration in application.properties.
 
 Discord Bot(s)
+
 Create at least 1 Discord bot from the Discord Developer Portal.
 
 Add your bot token(s) to application.properties.
 
 🔑 Bot Configuration
+
 In application.properties, set your bot tokens:
 
 # Required for single-threaded operations & APIs

@@ -85,6 +85,8 @@ Run the application (e.g., via Maven/Gradle or your IDE).
 
 Use the frontend application(ReactJS) to First Create channels and then submit the Upload and Download Requests.
 
+API Config is in discord-backup-frontend/src/api/axiosConfig.ts (change the port accordingly if you change it in application.properties)
+Whitelist the URL of your react app in discord-backup-backend\src\main\java\com\discord\backup\discord_backup_backend\config\CorsConfig.java
 
 📌 Notes
 
